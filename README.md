@@ -4,8 +4,11 @@
 
 ## Type "npm run server" to run nodemon
 
+## Type
+
 ### New Tech Used:
 
 #### Node.js Gravatar library: A library to generate Gravatar URLs in Node.js Based on gravatar specs
 #### bcryptjs to hash password
 #### jsonwebtoken for representing claims securely between two parties. (User login)
+#### concurrently to run different server by using single command
