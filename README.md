@@ -6,7 +6,7 @@ A small social media app for movie critics to share their posts
 
 - Run "npm intall ", "npm run client-install" to install npm packages in both main and client
 
-- "npm run dev" Run the client & server with concurrently
+- Command "npm run dev" run the client & server with concurrently
 
 - Server runs on http://localhost:5000 and client on http://localhost:3000
 
