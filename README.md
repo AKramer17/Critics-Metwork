@@ -1,16 +1,23 @@
 # criticsmetwork
 
-## Type "node server.js" or "npm start" to start
+A small social media app for movie critics to share their posts
 
-## Type "npm run server" to run nodemon
+## How to play
 
-## Type
+- Run "npm intall ", "npm run client-install" to install npm packages in both main and client
 
-### New Tech Used:
+- "npm run dev" Run the client & server with concurrently
 
-#### Node.js Gravatar library: A library to generate Gravatar URLs in Node.js Based on gravatar specs
-#### bcryptjs to hash password
-#### jsonwebtoken for representing claims securely between two parties. (User login)
-#### concurrently to run different server by using single command
-#### react-youtube
-#### 
+- Server runs on http://localhost:5000 and client on http://localhost:3000
+
+## Link to Heroku App:
+
+- https://rocky-bastion-79154.herokuapp.com/
+
+## Link to GitHub
+
+- https://github.com/daimon5lion/criticsmetwork
+
+## Tech Used:
+
+React, redux, bcryptjs, jsonwebtoken, concurrently ...
