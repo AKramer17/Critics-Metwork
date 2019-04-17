@@ -16,6 +16,7 @@ import Landing from './components/layout/Landing';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import Dashboard from './components/dashboard/Dashboard';
+import Movie from './components/movie-list/Movie/Movie';
 import CreateProfile from './components/create-profile/CreateProfile';
 import EditProfile from './components/edit-profile/EditProfile';
 import AddExperience from './components/add-credentials/AddExperience';
@@ -25,8 +26,12 @@ import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
 import NotFound from './components/not-found/NotFound';
+import Showfilms from '../src/components/movie-list/Showfilms/Showfilms'
+import Main from './components/movie-list/Main'
+
 
 import './App.css';
+
 
 // Check for token
 if (localStorage.jwtToken) {
@@ -62,9 +67,16 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />
               <Route exact path="/profile/:handle" component={Profile} />
+              <Route exact path="/movie/:id" component={Movie} />
+              <Route exact path='/search/:query' render={
+      props => (<Showfilms currentPage='Search Results' {...props} />
+    )} />
+              <Route exact path="/movie" component={Main} />
+              
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
+             
               <Switch>
                 <PrivateRoute
                   exact
