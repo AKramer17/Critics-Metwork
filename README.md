@@ -1,4 +1,4 @@
-# criticsmetwork
+# Critics Metwork
 
 A small social media app for movie critics to share their posts
 
