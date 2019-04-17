@@ -25,6 +25,7 @@
     "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",
     "mongoose": "^5.0.12",
+    "node": "^11.13.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "react": "^16.8.6",
