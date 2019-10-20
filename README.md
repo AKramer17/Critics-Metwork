@@ -4,9 +4,9 @@ A small social media app for movie critics to share their posts
 
 ## How to play
 
-- Run "npm intall ", "npm run client-install" to install npm packages in both main and client
+- Run "npm install", then "npm run client-install" to install npm packages in both main and client
 
-- Command "npm run dev" run the client & server with concurrently
+- Use command "npm run dev" to run the client & server with concurrently
 
 - Server runs on http://localhost:5000 and client on http://localhost:3000
 
