@@ -4,7 +4,7 @@ A small social media app for movie critics to share their posts
 
 ## How to use
 
-- Open your computer's terminal
+- Open computer terminal
 
 - Type "npm install", hit enter, then type "npm run client-install" and 
   hit enter again to install npm packages in both main and client
