@@ -4,6 +4,8 @@ A small social media app for movie critics to share their posts
 
 ## How to use
 
+- Clone repository
+
 - Open computer terminal
 
 - Type "npm install" and hit enter, then type "npm run client-install" and 
